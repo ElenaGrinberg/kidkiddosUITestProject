@@ -47,7 +47,4 @@ public class UpperRightMenuTest extends UseCaseBase {
 
     }
 
-
-
-
 }
