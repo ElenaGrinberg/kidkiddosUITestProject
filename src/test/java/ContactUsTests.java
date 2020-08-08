@@ -1,17 +1,10 @@
-import Consts.Consts;
-import Pages.BasePage;
-import Pages.ContactUsPage;
-import Pages.MainPage;
+import pages.ContactUsPage;
 import Utils.UseCaseBase;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.junit.jupiter.api.*;
 import org.junit.jupiter.params.ParameterizedTest;
-import org.junit.jupiter.params.ParameterizedTest.* ;
 import org.junit.jupiter.params.provider.ValueSource;
-import org.openqa.selenium.By;
-
-import java.util.stream.Stream;
 
 import static org.junit.jupiter.api.Assertions.assertNotNull;
 import static org.junit.jupiter.api.Assertions.assertTrue;

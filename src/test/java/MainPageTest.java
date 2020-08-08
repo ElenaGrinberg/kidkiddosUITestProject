@@ -1,7 +1,5 @@
 import Consts.Consts;
-import Pages.BasePage;
-import Pages.ContactUsPage;
-import Pages.MainPage;
+import pages.MainPage;
 import Utils.UseCaseBase;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
