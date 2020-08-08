@@ -56,6 +56,31 @@ public class Consts {
     public static final String ERROR_NAME_FIELD = "//div[@class='_error-inner'][contains(text(), 'required')]";
     public static final String ERROR_MAIL_FIELD = "//div[@class='_error-inner'][contains(text(), 'valid email')]";
 
+    //upper right menu
+    public static final String LOGIN_ICON ="//a[@class='site-header__account']";
+    public static final String LOGIN_EMAIL ="//input[@id='CustomerEmail']";
+    public static final String LOGIN_PASSWORD ="//input[@id='CustomerPassword']";
+    public static final String LOGIN_PAGE_RECOVERY_PASSWORD ="//a[@id='RecoverPassword']";
+    public static final String BUTTON_SIGN_IN ="//input[@value='Sign In']";
+    public static final String CREATE_ACCOUNT_PATH ="//a[@id='customer_register_link']";
+    public static final String CREATE_ACCOUNT_LINK ="https://kidkiddos.com/account/register";
+    public static final String CART_PATH ="//a[@href='/cart']";
+    public static final String CART_COUNTER ="//div[@id='CartCount']";
+    public static final String BOOKS_COUNTER ="//div[@id='CartCount']//span[%]";
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 }

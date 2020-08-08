@@ -21,6 +21,10 @@ public class BasePage {
         this.webDriver = webDriver;
         wait = new WebDriverWait(webDriver, 5);
     }
+    protected void goToPage(String URL){
+        webDriver.get(URL);
+
+    }
 
 
     protected void clickElementByXpath(String xpath) {
