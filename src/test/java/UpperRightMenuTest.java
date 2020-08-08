@@ -7,6 +7,8 @@ import org.junit.jupiter.api.Test;
 import pages.ContactUsPage;
 import pages.UpperRightMenu;
 
+import static Consts.Consts.LOGIN_PAGE_URL;
+import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertTrue;
 
 public class UpperRightMenuTest extends UseCaseBase {
@@ -35,6 +37,17 @@ public class UpperRightMenuTest extends UseCaseBase {
         upperRightMenu.takeScreenshot("CartIconIsVisible");
         assertTrue(success);
     }
+    @Test
+    public void LoginPageIsOpened(){
+        logger.info("Login page is opened");
+        String expectedURL = LOGIN_PAGE_URL;
+        String actualURL = upperRightMenu.openLoginPage();
+        upperRightMenu.takeScreenshot("OpenLoginPage");
+        assertEquals(expectedURL, actualURL);
+
+    }
+
+
 
 
 }

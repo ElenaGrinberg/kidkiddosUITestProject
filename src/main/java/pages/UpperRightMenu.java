@@ -19,4 +19,14 @@ public class UpperRightMenu extends BasePage{
         return isVisible;
     }
 
+    public String openLoginPage(){
+        clickElementByXpath(LOGIN_ICON);
+       String pageURL = getCurrentPageURL();
+        return pageURL;
+    }
+
+
+
+
+
 }

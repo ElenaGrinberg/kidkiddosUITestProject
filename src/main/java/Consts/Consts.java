@@ -58,6 +58,8 @@ public class Consts {
 
     //upper right menu
     public static final String LOGIN_ICON ="//a[@class='site-header__account']";
+    public static final String LOGIN_PAGE_URL = "https://kidkiddos.com/account/login";
+    public static final String LOGIN_PAGE_LOGO = "//h1[text()='Login']";
     public static final String LOGIN_EMAIL ="//input[@id='CustomerEmail']";
     public static final String LOGIN_PASSWORD ="//input[@id='CustomerPassword']";
     public static final String LOGIN_PAGE_RECOVERY_PASSWORD ="//a[@id='RecoverPassword']";
@@ -67,6 +69,7 @@ public class Consts {
     public static final String CART_PATH ="//a[@href='/cart']";
     public static final String CART_COUNTER ="//div[@id='CartCount']";
     public static final String BOOKS_COUNTER ="//div[@id='CartCount']//span[%]";
+
 
 
 
