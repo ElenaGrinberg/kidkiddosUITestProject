@@ -2,7 +2,7 @@ package pages;
 
 import static Consts.Consts.*;
 
-public class LoginINPage extends BasePage {
+public class LoginPage extends BasePage {
 
     public void goToLoginPage(){
         goToPage(LOGIN_PAGE_URL);
