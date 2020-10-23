@@ -1,4 +1,4 @@
-import Consts.Consts;
+import consts.Consts;
 import pages.MainPage;
 import Utils.UseCaseBase;
 import org.apache.logging.log4j.LogManager;

@@ -21,10 +21,35 @@ public class BasePage {
         this.webDriver = webDriver;
         wait = new WebDriverWait(webDriver, 5);
     }
+    public static void explicitWaitPresenceOfElement(String xpath) {
+        WebElement expWait = (new WebDriverWait(webDriver, 30)).until(ExpectedConditions.presenceOfElementLocated(By.xpath(xpath)));
+    }
+
+
     protected void goToPage(String URL){
         webDriver.get(URL);
 
     }
+
+    public static boolean errorDisplayed(String xpath){
+        logger.info("Error message is displayed: " + xpath);
+        WebElement error = webDriver.findElement(By.xpath(xpath));
+        try {error.isDisplayed();
+            String errorMessage = error.getText();
+            System.out.println(errorMessage);
+            return true;
+        } catch (Exception err) {
+            return false;
+        }
+    }
+
+    public static String getTextFromMessageError() {
+        String textError = webDriver.switchTo().alert().getText();
+        return textError;
+
+    }
+
+
 
 
     protected void clickElementByXpath(String xpath) {
@@ -36,11 +61,11 @@ public class BasePage {
         findElementByXpath(xpath).sendKeys(text);
     }
 
-    protected boolean elementExists(String xpath) {
+    public static boolean elementExists(String xpath) {
         try {
             logger.info("Check element with xpath exists: " + xpath);
 
-            //findElementByXpath(xpath);
+
             webDriver.findElement(By.xpath(xpath));
             return true;
         } catch (Exception err) {

@@ -1,8 +1,8 @@
 package pages;
 
-import Consts.Consts;
+import consts.Consts;
 
-import static Consts.Consts.MENU_CONTACTS_US_PATH;
+import static consts.Consts.MENU_CONTACTS_US_PATH;
 
 public class ContactUsPage extends BasePage {
 
@@ -48,7 +48,7 @@ public class ContactUsPage extends BasePage {
     public boolean NameFormVerify(String text) {
         openContactUsTab();
         sendTextToElementByXpath(Consts.FIELD_NAME_PATH, text);
-        sendTextToElementByXpath(Consts.FIELD_EMAIL_PATH, "mama@mama.com");
+        sendTextToElementByXpath(Consts.FIELD_EMAIL_PATH, "mama2mama.com");
         sendTextToElementByXpath(Consts.FIELD_TEXT_MASSAGE, "One of the great American novels, The Adventures of Huckleberry Finn tells the story of Huck Finn and his travels with Jim, an escaped slave. Roundly criticised by contemporary reviewers for its colorful and literal language and even banned by several libraries, it sealed its historical importance in part by being one of the first novels to be written entirely in American vernacular.\n" +
                 "\n" +
                 "While Huck Finn is, on its face, an adventure tale for younger readers, it’s also a cutting satire and a nuanced examination of racism and morality. Hemingway called it “the best book we’ve had.”");

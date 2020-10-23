@@ -1,6 +1,4 @@
-package Consts;
-
-import java.util.EnumMap;
+package consts;
 
 public class Consts {
     public static final String MAIN_URL = "https://kidkiddos.com/";
@@ -65,10 +63,24 @@ public class Consts {
     public static final String LOGIN_PAGE_RECOVERY_PASSWORD ="//a[@id='RecoverPassword']";
     public static final String BUTTON_SIGN_IN ="//input[@value='Sign In']";
     public static final String CREATE_ACCOUNT_PATH ="//a[@id='customer_register_link']";
+    public static final String CREATE_ACCOUNT_LOGO_PAGE ="//h1[text()='Create Account']";
     public static final String CREATE_ACCOUNT_LINK ="https://kidkiddos.com/account/register";
     public static final String CART_PATH ="//a[@href='/cart']";
     public static final String CART_COUNTER ="//div[@id='CartCount']";
     public static final String BOOKS_COUNTER ="//div[@id='CartCount']//span[%]";
+
+    //Create Account Page
+    public static final String FIRST_MAME_FIELD ="//input[@id='FirstName']";
+    public static final String LAST_MAME_FIELD ="//input[@id='LastName']";
+    public static final String EMAIL_FIELD ="//input[@id='Email']";
+    public static final String PASSWORD_FIELD ="//input[@id='CreatePassword']";
+    public static final String CREATE_BUTTON ="//input[@type='submit']";
+    public static final String TEXT_ERROR_EMAIL = "//*[contains(text(), ' Адрес электронной почты должен содержать символ')]";
+
+
+
+
+
 
 
 

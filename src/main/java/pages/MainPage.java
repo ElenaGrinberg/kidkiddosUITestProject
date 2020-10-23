@@ -1,33 +1,32 @@
 package pages;
 
-import Consts.Consts;
+import consts.Consts;
 
 
-public class MainPage extends BasePage{
+public class MainPage extends BasePage {
 
 
-
-    public void navigateToMainPage(){
+    public void navigateToMainPage() {
         webDriver.get(Consts.MAIN_URL);
     }
 
-    public boolean isLogoVisible(){
-       Boolean isVisible =  elementExists(Consts.LOGO_IMG);
-       return isVisible;
+    public boolean isLogoVisible() {
+        Boolean isVisible = elementExists(Consts.LOGO_IMG);
+        return isVisible;
     }
-     public boolean elementExist(String element){
+
+    public boolean elementExist(String element) {
         Boolean elementExist = elementExists(element);
         return elementExist;
-     }
+    }
 
 
-
-    public String openTopMenu(String menu){
+    public String openTopMenu(String menu) {
         clickElementByXpath(menu);
         return getCurrentPageURL();
     }
 
-    public String testResourcesMenu(String resources, String menu){
+    public String testResourcesMenu(String resources, String menu) {
         clickElementByXpath(resources);
         clickElementByXpath(menu);
         return getCurrentPageURL();

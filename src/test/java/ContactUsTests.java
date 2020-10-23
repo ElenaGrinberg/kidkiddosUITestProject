@@ -11,7 +11,7 @@ import static org.junit.jupiter.api.Assertions.assertTrue;
 
 public class ContactUsTests extends UseCaseBase {
     private static ContactUsPage contactUsPage;
-    public static final Logger logger = LogManager.getLogger(MainPageTest.class);
+    public static final Logger logger = LogManager.getLogger(ContactUsPage.class);
 
     @BeforeAll
     public static void classSetup() {

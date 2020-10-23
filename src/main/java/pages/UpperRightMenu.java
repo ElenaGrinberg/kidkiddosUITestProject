@@ -1,6 +1,6 @@
 package pages;
 
-import static Consts.Consts.*;
+import static consts.Consts.*;
 
 public class UpperRightMenu extends BasePage{
 

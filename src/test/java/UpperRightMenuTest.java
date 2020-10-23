@@ -4,10 +4,9 @@ import org.apache.logging.log4j.Logger;
 import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
-import pages.ContactUsPage;
 import pages.UpperRightMenu;
 
-import static Consts.Consts.LOGIN_PAGE_URL;
+import static consts.Consts.LOGIN_PAGE_URL;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertTrue;
 

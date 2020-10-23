@@ -1,6 +1,6 @@
 package pages;
 
-import static Consts.Consts.*;
+import static consts.Consts.*;
 
 public class LoginPage extends BasePage {
 
@@ -11,5 +11,27 @@ public class LoginPage extends BasePage {
         clickElementByXpath(LOGIN_ICON);
         Boolean isVisible = elementExists(LOGIN_PAGE_LOGO);
         return isVisible;
+    }
+    public boolean createAccountLink(){
+        clickElementByXpath(CREATE_ACCOUNT_PATH);
+        Boolean isVisible = elementExists(CREATE_ACCOUNT_LOGO_PAGE);
+        return isVisible;
+    }
+    public void creativeAccountMailFieldNegative(String text) {
+        clickElementByXpath(CREATE_ACCOUNT_PATH);
+        sendTextToElementByXpath(FIRST_MAME_FIELD, text);
+        sendTextToElementByXpath(LAST_MAME_FIELD, text);
+        sendTextToElementByXpath(EMAIL_FIELD, text);
+        sendTextToElementByXpath(PASSWORD_FIELD, text);
+        clickElementByXpath(CREATE_BUTTON);
+    }
+
+
+        public boolean isErrorMessage(String path){
+        boolean errorMessage = errorDisplayed(path);
+        return errorMessage;
+
+
+
     }
 }
