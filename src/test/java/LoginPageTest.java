@@ -1,4 +1,5 @@
 import Utils.UseCaseBase;
+import consts.Consts;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.apache.logging.log4j.core.util.Assert;
@@ -16,6 +17,8 @@ import static org.junit.jupiter.api.Assertions.*;
 public class LoginPageTest extends UseCaseBase {
     public static final Logger logger = LogManager.getLogger(LoginPageTest.class);
     private static LoginPage loginPage;
+    String errorMailFieldTextPath = "//*[contains(text(),'include')]";
+
 
     @BeforeAll
     public static void classSetup() {
@@ -41,17 +44,15 @@ public class LoginPageTest extends UseCaseBase {
     }
 
     @Test
-        public void createAccountMailTest(){
-       String text = "#$%^&#W";
+        public void createAccountMailNegativeTest(){
+        String text = "#$%^&#W";
         logger.info("Creative account fills");
         loginPage.creativeAccountMailFieldNegative(text);
-        String textError = BasePage.getTextFromMessageError();
-        loginPage.takeScreenshot("NegativeTestMailField");
-        String expectedMassage = "Адрес электронной почты должен содержать символ";
-        assertEquals(textError, expectedMassage);
-        analyzeLog();
-
-
+        boolean errorText = loginPage.isErrorMessage(TEXT_ERROR_EMAIL);
+        String expectedUrl = CREATE_ACCOUNT_PAGE_URL;
+        String actualURL = loginPage.getURLPage();
+        assertTrue(errorText);
+        assertEquals(expectedUrl, actualURL);
 
     }
 

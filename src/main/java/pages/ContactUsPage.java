@@ -57,6 +57,5 @@ public class ContactUsPage extends BasePage {
         boolean error = elementExists(Consts.ERROR_NAME_FIELD);
         return error;
 
-
     }
 }

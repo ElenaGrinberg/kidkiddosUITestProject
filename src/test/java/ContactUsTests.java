@@ -50,15 +50,18 @@ public class ContactUsTests extends UseCaseBase {
         assertTrue(error);
     }
 
-    @ParameterizedTest
-     @DisplayName("ERROR!The name field accepts all kinds of values")
-    @ValueSource(strings ={"@&&&&&&", ",,,,,,,,,,,", " ", "qehehshns,,,,,,,,,,,,,,,333333#####", "One of the great American novels, The Adventures of Huckleberry Finn tells the story of Huck Finn and his travels with Jim, an escaped slave. Roundly criticised by contemporary reviewers for its colorful and literal language and even banned by several libraries, it sealed its historical importance in part by being one of the first novels to be written entirely in American vernacular." })
-    public void NegativeTestOfNameField(String text){
-        logger.info("Error name field test");
-        boolean error = contactUsPage.NameFormVerify(text);
-        contactUsPage.takeScreenshot("ErrorNameFieldTest");
-        assertTrue(error);
-    }
+//    @ParameterizedTest
+//     @DisplayName("ERROR!The name field accepts all kinds of values")
+//    @ValueSource(strings ={"@&&&&&&", ",,,,,,,,,,,", " ", "qehehshns,,,,,,,,,,,,,,,333333#####", "One of the great American novels, The Adventures of Huckleberry Finn tells the story of Huck Finn and his travels with Jim, an escaped slave. Roundly criticised by contemporary reviewers for its colorful and literal language and even banned by several libraries, it sealed its historical importance in part by being one of the first novels to be written entirely in American vernacular." })
+//    public void NegativeTestOfNameField(String text){
+//        logger.info("Error name field test");
+//        boolean error = contactUsPage.NameFormVerify(text);
+//        contactUsPage.takeScreenshot("ErrorNameFieldTest");
+//        assertTrue(error);
+//    }
+
+
+
 
 
 

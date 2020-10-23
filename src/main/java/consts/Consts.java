@@ -70,12 +70,14 @@ public class Consts {
     public static final String BOOKS_COUNTER ="//div[@id='CartCount']//span[%]";
 
     //Create Account Page
+    public static final String CREATE_ACCOUNT_PAGE_URL = "https://kidkiddos.com/account/register";
     public static final String FIRST_MAME_FIELD ="//input[@id='FirstName']";
     public static final String LAST_MAME_FIELD ="//input[@id='LastName']";
     public static final String EMAIL_FIELD ="//input[@id='Email']";
     public static final String PASSWORD_FIELD ="//input[@id='CreatePassword']";
     public static final String CREATE_BUTTON ="//input[@type='submit']";
-    public static final String TEXT_ERROR_EMAIL = "//*[contains(text(), ' Адрес электронной почты должен содержать символ')]";
+    public static final String TEXT_ERROR_EMAIL = "//*[contains(text(), 'include')]";
+
 
 
 

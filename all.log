@@ -1,25 +1,123 @@
-2020-10-23 21:10:35.518 [main] DEBUG io.github.bonigarcia.wdm.Preferences - Preference chrome=86 (valid until 2020-10-24 15:02:34)
-2020-10-23 21:10:35.528 [main] DEBUG io.github.bonigarcia.wdm.Preferences - Preference chrome86=86.0.4240.22 (valid until 2020-10-24 15:02:34)
-2020-10-23 21:10:35.530 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 86.0.4240.22 (since Google Chrome 86 is installed in your machine)
-2020-10-23 21:10:35.541 [main] DEBUG io.github.bonigarcia.wdm.WebDriverManager - Driver chromedriver 86.0.4240.22 found in cache
-2020-10-23 21:10:35.543 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as /Users/lena/.m2/repository/webdriver/chromedriver/mac64/86.0.4240.22/chromedriver
-2020-10-23 21:10:40.000 [main] INFO  pages.ContactUsPage - Error name field test
-2020-10-23 21:10:40.000 [main] INFO  pages.BasePage - Clicking element with xpath: //a[@class='site-nav__link site-nav__link--main'][text()='Contact us']
-2020-10-23 21:10:41.604 [main] INFO  pages.BasePage - Clicking element with xpath: //button[@id='_form_44_submit']
-2020-10-23 21:10:41.697 [main] INFO  pages.BasePage - Check element with xpath exists: //div[@class='_error-inner'][contains(text(), 'required')]
-2020-10-23 21:10:44.852 [main] INFO  pages.ContactUsPage - Error name field test
-2020-10-23 21:10:44.853 [main] INFO  pages.BasePage - Clicking element with xpath: //a[@class='site-nav__link site-nav__link--main'][text()='Contact us']
-2020-10-23 21:10:46.225 [main] INFO  pages.BasePage - Clicking element with xpath: //button[@id='_form_44_submit']
-2020-10-23 21:10:46.289 [main] INFO  pages.BasePage - Check element with xpath exists: //div[@class='_error-inner'][contains(text(), 'required')]
-2020-10-23 21:10:49.533 [main] INFO  pages.ContactUsPage - Error name field test
-2020-10-23 21:10:49.533 [main] INFO  pages.BasePage - Clicking element with xpath: //a[@class='site-nav__link site-nav__link--main'][text()='Contact us']
-2020-10-23 21:10:51.093 [main] INFO  pages.BasePage - Clicking element with xpath: //button[@id='_form_44_submit']
-2020-10-23 21:10:51.177 [main] INFO  pages.BasePage - Check element with xpath exists: //div[@class='_error-inner'][contains(text(), 'required')]
-2020-10-23 21:10:52.389 [main] INFO  pages.ContactUsPage - Error name field test
-2020-10-23 21:10:52.389 [main] INFO  pages.BasePage - Clicking element with xpath: //a[@class='site-nav__link site-nav__link--main'][text()='Contact us']
-2020-10-23 21:10:53.776 [main] INFO  pages.BasePage - Clicking element with xpath: //button[@id='_form_44_submit']
-2020-10-23 21:10:53.843 [main] INFO  pages.BasePage - Check element with xpath exists: //div[@class='_error-inner'][contains(text(), 'required')]
-2020-10-23 21:10:57.065 [main] INFO  pages.ContactUsPage - Error name field test
-2020-10-23 21:10:57.065 [main] INFO  pages.BasePage - Clicking element with xpath: //a[@class='site-nav__link site-nav__link--main'][text()='Contact us']
-2020-10-23 21:10:58.734 [main] INFO  pages.BasePage - Clicking element with xpath: //button[@id='_form_44_submit']
-2020-10-23 21:10:58.806 [main] INFO  pages.BasePage - Check element with xpath exists: //div[@class='_error-inner'][contains(text(), 'required')]
+2020-10-24 00:00:48.900 [main] DEBUG io.github.bonigarcia.wdm.Preferences - Preference chrome=86 (valid until 2020-10-24 15:02:34)
+2020-10-24 00:00:48.909 [main] DEBUG io.github.bonigarcia.wdm.Preferences - Preference chrome86=86.0.4240.22 (valid until 2020-10-24 15:02:34)
+2020-10-24 00:00:48.910 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 86.0.4240.22 (since Google Chrome 86 is installed in your machine)
+2020-10-24 00:00:48.925 [main] DEBUG io.github.bonigarcia.wdm.WebDriverManager - Driver chromedriver 86.0.4240.22 found in cache
+2020-10-24 00:00:48.926 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as /Users/lena/.m2/repository/webdriver/chromedriver/mac64/86.0.4240.22/chromedriver
+2020-10-24 00:00:52.747 [main] INFO  pages.ContactUsPage - Contact US Page load test
+2020-10-24 00:00:52.748 [main] INFO  pages.BasePage - Clicking element with xpath: //a[@class='site-nav__link site-nav__link--main'][text()='Contact us']
+2020-10-24 00:00:53.222 [main] INFO  pages.BasePage - Check element with xpath exists: //h1[text()='Contact us']
+2020-10-24 00:00:54.766 [main] INFO  pages.ContactUsPage - Negative test of form Contact Us
+2020-10-24 00:00:54.766 [main] INFO  pages.BasePage - Clicking element with xpath: //a[@class='site-nav__link site-nav__link--main'][text()='Contact us']
+2020-10-24 00:00:56.008 [main] INFO  pages.BasePage - Clicking element with xpath: //button[@id='_form_44_submit']
+2020-10-24 00:00:56.089 [main] INFO  pages.BasePage - Check element with xpath exists: //div[@class='_error-inner']
+2020-10-24 00:00:57.315 [main] INFO  pages.ContactUsPage - Negative test of form Contact Us
+2020-10-24 00:00:57.316 [main] INFO  pages.BasePage - Clicking element with xpath: //a[@class='site-nav__link site-nav__link--main'][text()='Contact us']
+2020-10-24 00:00:58.233 [main] INFO  pages.BasePage - Clicking element with xpath: //button[@id='_form_44_submit']
+2020-10-24 00:00:58.297 [main] INFO  pages.BasePage - Check element with xpath exists: //div[@class='_error-inner']
+2020-10-24 00:00:59.499 [main] INFO  pages.ContactUsPage - Negative test of form Contact Us
+2020-10-24 00:00:59.499 [main] INFO  pages.BasePage - Clicking element with xpath: //a[@class='site-nav__link site-nav__link--main'][text()='Contact us']
+2020-10-24 00:01:00.435 [main] INFO  pages.BasePage - Clicking element with xpath: //button[@id='_form_44_submit']
+2020-10-24 00:01:00.504 [main] INFO  pages.BasePage - Check element with xpath exists: //div[@class='_error-inner']
+2020-10-24 00:01:01.703 [main] INFO  pages.ContactUsPage - Negative test of form Contact Us
+2020-10-24 00:01:01.703 [main] INFO  pages.BasePage - Clicking element with xpath: //a[@class='site-nav__link site-nav__link--main'][text()='Contact us']
+2020-10-24 00:01:02.657 [main] INFO  pages.BasePage - Clicking element with xpath: //button[@id='_form_44_submit']
+2020-10-24 00:01:02.722 [main] INFO  pages.BasePage - Check element with xpath exists: //div[@class='_error-inner']
+2020-10-24 00:01:03.752 [main] INFO  pages.ContactUsPage - Negative test of form Contact Us
+2020-10-24 00:01:03.753 [main] INFO  pages.BasePage - Clicking element with xpath: //a[@class='site-nav__link site-nav__link--main'][text()='Contact us']
+2020-10-24 00:01:04.676 [main] INFO  pages.BasePage - Clicking element with xpath: //button[@id='_form_44_submit']
+2020-10-24 00:01:04.736 [main] INFO  pages.BasePage - Check element with xpath exists: //div[@class='_error-inner']
+2020-10-24 00:01:05.935 [main] INFO  pages.ContactUsPage - Error mail field test
+2020-10-24 00:01:05.935 [main] INFO  pages.BasePage - Clicking element with xpath: //a[@class='site-nav__link site-nav__link--main'][text()='Contact us']
+2020-10-24 00:01:07.326 [main] INFO  pages.BasePage - Clicking element with xpath: //button[@id='_form_44_submit']
+2020-10-24 00:01:07.403 [main] INFO  pages.BasePage - Check element with xpath exists: //div[@class='_error-inner'][contains(text(), 'valid email')]
+2020-10-24 00:01:08.931 [main] INFO  pages.ContactUsPage - Error mail field test
+2020-10-24 00:01:08.932 [main] INFO  pages.BasePage - Clicking element with xpath: //a[@class='site-nav__link site-nav__link--main'][text()='Contact us']
+2020-10-24 00:01:10.269 [main] INFO  pages.BasePage - Clicking element with xpath: //button[@id='_form_44_submit']
+2020-10-24 00:01:10.326 [main] INFO  pages.BasePage - Check element with xpath exists: //div[@class='_error-inner'][contains(text(), 'valid email')]
+2020-10-24 00:01:11.491 [main] INFO  pages.ContactUsPage - Error mail field test
+2020-10-24 00:01:11.492 [main] INFO  pages.BasePage - Clicking element with xpath: //a[@class='site-nav__link site-nav__link--main'][text()='Contact us']
+2020-10-24 00:01:12.915 [main] INFO  pages.BasePage - Clicking element with xpath: //button[@id='_form_44_submit']
+2020-10-24 00:01:12.989 [main] INFO  pages.BasePage - Check element with xpath exists: //div[@class='_error-inner'][contains(text(), 'valid email')]
+2020-10-24 00:01:13.504 [main] DEBUG io.github.bonigarcia.wdm.Preferences - Preference chrome=86 (valid until 2020-10-24 15:02:34)
+2020-10-24 00:01:13.517 [main] DEBUG io.github.bonigarcia.wdm.Preferences - Preference chrome86=86.0.4240.22 (valid until 2020-10-24 15:02:34)
+2020-10-24 00:01:13.517 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 86.0.4240.22 (since Google Chrome 86 is installed in your machine)
+2020-10-24 00:01:13.538 [main] DEBUG io.github.bonigarcia.wdm.WebDriverManager - Driver chromedriver 86.0.4240.22 found in cache
+2020-10-24 00:01:13.539 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as /Users/lena/.m2/repository/webdriver/chromedriver/mac64/86.0.4240.22/chromedriver
+2020-10-24 00:01:17.140 [main] INFO  LoginPageTest - Login page is loaded
+2020-10-24 00:01:17.140 [main] INFO  pages.BasePage - Clicking element with xpath: //a[@class='site-header__account']
+2020-10-24 00:01:17.983 [main] INFO  pages.BasePage - Check element with xpath exists: //h1[text()='Login']
+2020-10-24 00:01:19.953 [main] INFO  LoginPageTest - Creative account fills
+2020-10-24 00:01:19.954 [main] INFO  pages.BasePage - Clicking element with xpath: //a[@id='customer_register_link']
+2020-10-24 00:01:21.134 [main] INFO  pages.BasePage - Clicking element with xpath: //input[@type='submit']
+2020-10-24 00:01:21.199 [main] INFO  pages.BasePage - Error message is displayed: //*[contains(text(), 'include')]
+2020-10-24 00:01:22.685 [main] INFO  LoginPageTest - Creative account page is opened and loaded
+2020-10-24 00:01:22.685 [main] INFO  pages.BasePage - Clicking element with xpath: //a[@id='customer_register_link']
+2020-10-24 00:01:23.479 [main] INFO  pages.BasePage - Check element with xpath exists: //h1[text()='Create Account']
+2020-10-24 00:01:24.009 [main] DEBUG io.github.bonigarcia.wdm.Preferences - Preference chrome=86 (valid until 2020-10-24 15:02:34)
+2020-10-24 00:01:24.023 [main] DEBUG io.github.bonigarcia.wdm.Preferences - Preference chrome86=86.0.4240.22 (valid until 2020-10-24 15:02:34)
+2020-10-24 00:01:24.025 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 86.0.4240.22 (since Google Chrome 86 is installed in your machine)
+2020-10-24 00:01:24.029 [main] DEBUG io.github.bonigarcia.wdm.WebDriverManager - Driver chromedriver 86.0.4240.22 found in cache
+2020-10-24 00:01:24.030 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as /Users/lena/.m2/repository/webdriver/chromedriver/mac64/86.0.4240.22/chromedriver
+2020-10-24 00:01:27.495 [main] INFO  pages.BasePage - Clicking element with xpath: //a[@class='site-nav__link site-nav__link--main'][text()='Home']
+2020-10-24 00:01:27.873 [main] INFO  pages.BasePage - Check element with xpath exists: //img[@itemprop='logo']
+2020-10-24 00:01:28.864 [main] INFO  pages.BasePage - Clicking element with xpath: //a[@class='site-nav__link site-nav__link--main'][text()='Español']
+2020-10-24 00:01:30.158 [main] INFO  pages.BasePage - Check element with xpath exists: //div[@class='section-header text-center']//h1[contains(text(),'Spanish')]
+2020-10-24 00:01:30.988 [main] INFO  pages.BasePage - Clicking element with xpath: //a[@class='site-nav__link site-nav__link--main'][text()='Français']
+2020-10-24 00:01:31.582 [main] INFO  pages.BasePage - Check element with xpath exists: //div[@class='section-header text-center']//h1[contains(text(),'Français')]
+2020-10-24 00:01:32.710 [main] INFO  pages.BasePage - Clicking element with xpath: //a[@class='site-nav__link site-nav__link--main'][text()='Blog']
+2020-10-24 00:01:33.908 [main] INFO  pages.BasePage - Check element with xpath exists: //header[@class='section-header text-center']//h1[contains(text(),'Blog')]
+2020-10-24 00:01:34.431 [main] INFO  pages.BasePage - Clicking element with xpath: //a[@class='site-nav__link site-nav__link--main'][text()='FAQs']
+2020-10-24 00:01:35.219 [main] INFO  pages.BasePage - Check element with xpath exists: //div[@class='section-header text-center']//h1[contains(text(),'FAQ/addition')]
+2020-10-24 00:01:36.080 [main] INFO  pages.BasePage - Clicking element with xpath: //a[@class='site-nav__link site-nav__link--main'][text()='Contact us']
+2020-10-24 00:01:36.955 [main] INFO  pages.BasePage - Check element with xpath exists: //h1[text()='Contact us']
+2020-10-24 00:01:37.766 [main] INFO  MainPageTest - Video from the Resources page load test
+2020-10-24 00:01:37.766 [main] INFO  pages.BasePage - Clicking element with xpath: //a[@class='site-nav__link site-nav__link--main'][@aria-controls='SiteNavLabel-resources']
+2020-10-24 00:01:37.840 [main] INFO  pages.BasePage - Clicking element with xpath: //a[@class='site-nav__link site-nav__child-link'][text()='Videos']
+2020-10-24 00:01:41.659 [main] INFO  MainPageTest - Language Page opening Test
+2020-10-24 00:01:41.659 [main] INFO  pages.BasePage - Clicking element with xpath: //a[@href='/collections'][@aria-controls='SiteNavLabel-books-by-language']
+2020-10-24 00:01:41.759 [main] INFO  pages.BasePage - Clicking element with xpath: //div[@id='SiteNavLabel-books-by-language']//a[contains(text(), 'Hebrew')]
+2020-10-24 00:01:43.176 [main] INFO  pages.BasePage - Check element with xpath exists: //div[@class='section-header text-center']//h1[contains(text(),'Hebrew')]
+2020-10-24 00:01:43.994 [main] INFO  MainPageTest - Language Page opening Test
+2020-10-24 00:01:43.994 [main] INFO  pages.BasePage - Clicking element with xpath: //a[@href='/collections'][@aria-controls='SiteNavLabel-books-by-language']
+2020-10-24 00:01:44.056 [main] INFO  pages.BasePage - Clicking element with xpath: //div[@id='SiteNavLabel-books-by-language']//a[contains(text(), 'Russian')]
+2020-10-24 00:01:45.707 [main] INFO  pages.BasePage - Check element with xpath exists: //div[@class='section-header text-center']//h1[contains(text(),'Russian')]
+2020-10-24 00:01:46.494 [main] INFO  MainPageTest - Language Page opening Test
+2020-10-24 00:01:46.494 [main] INFO  pages.BasePage - Clicking element with xpath: //a[@href='/collections/ebooks'][@aria-controls='SiteNavLabel-ebooks-by-language']
+2020-10-24 00:01:46.555 [main] INFO  pages.BasePage - Clicking element with xpath: //div[@id='SiteNavLabel-ebooks-by-language']//a[contains(text(), 'Hebrew')]
+2020-10-24 00:01:47.914 [main] INFO  pages.BasePage - Check element with xpath exists: //div[@class='section-header text-center']//h1[contains(text(),'eBooks in Hebrew')]
+2020-10-24 00:01:48.719 [main] INFO  MainPageTest - Language Page opening Test
+2020-10-24 00:01:48.719 [main] INFO  pages.BasePage - Clicking element with xpath: //a[@href='/collections/ebooks'][@aria-controls='SiteNavLabel-ebooks-by-language']
+2020-10-24 00:01:48.799 [main] INFO  pages.BasePage - Clicking element with xpath: //div[@id='SiteNavLabel-ebooks-by-language']//a[contains(text(), 'Russian')]
+2020-10-24 00:01:50.415 [main] INFO  pages.BasePage - Check element with xpath exists: //div[@class='section-header text-center']//h1[contains(text(),'eBooks in Russian')]
+2020-10-24 00:01:51.181 [main] INFO  MainPageTest - Language Page opening Test
+2020-10-24 00:01:51.181 [main] INFO  pages.BasePage - Clicking element with xpath: //a[@href='/collections'][@aria-controls='SiteNavLabel-all-languages']
+2020-10-24 00:01:51.240 [main] INFO  pages.BasePage - Clicking element with xpath: //div[@id='SiteNavLabel-all-languages']//a[contains(text(), 'Hebrew')]
+2020-10-24 00:01:52.583 [main] INFO  pages.BasePage - Check element with xpath exists: //div[@class='section-header text-center']//h1[contains(text(),'Hebrew')]
+2020-10-24 00:01:53.357 [main] INFO  MainPageTest - Language Page opening Test
+2020-10-24 00:01:53.357 [main] INFO  pages.BasePage - Clicking element with xpath: //a[@href='/collections'][@aria-controls='SiteNavLabel-all-languages']
+2020-10-24 00:01:53.403 [main] INFO  pages.BasePage - Clicking element with xpath: //div[@id='SiteNavLabel-all-languages']//a[contains(text(), 'Russian')]
+2020-10-24 00:01:54.876 [main] INFO  pages.BasePage - Check element with xpath exists: //div[@class='section-header text-center']//h1[contains(text(),'Russian')]
+2020-10-24 00:01:55.634 [main] INFO  MainPageTest - Language Page opening Test
+2020-10-24 00:01:55.634 [main] INFO  pages.BasePage - Clicking element with xpath: //a[@href='/collections'][@aria-controls='SiteNavLabel-books-by-language']
+2020-10-24 00:01:55.691 [main] INFO  pages.BasePage - Clicking element with xpath: //div[@id='SiteNavLabel-books-by-language']//a[contains(text(), 'Danish')]
+2020-10-24 00:01:56.895 [main] INFO  pages.BasePage - Check element with xpath exists: //div[@class='section-header text-center']//h1[contains(text(),'Danish')]
+2020-10-24 00:01:57.665 [main] INFO  MainPageTest - Language Page opening Test
+2020-10-24 00:01:57.665 [main] INFO  pages.BasePage - Clicking element with xpath: //a[@href='/collections/ebooks'][@aria-controls='SiteNavLabel-ebooks-by-language']
+2020-10-24 00:01:57.750 [main] INFO  pages.BasePage - Clicking element with xpath: //div[@id='SiteNavLabel-ebooks-by-language']//a[contains(text(), 'Danish')]
+2020-10-24 00:01:59.504 [main] INFO  pages.BasePage - Check element with xpath exists: //div[@class='section-header text-center']//h1[contains(text(),'eBooks in Danish')]
+2020-10-24 00:02:00.293 [main] INFO  MainPageTest - Blog from the Resources page load test
+2020-10-24 00:02:00.295 [main] INFO  pages.BasePage - Clicking element with xpath: //a[@class='site-nav__link site-nav__link--main'][@aria-controls='SiteNavLabel-resources']
+2020-10-24 00:02:00.360 [main] INFO  pages.BasePage - Clicking element with xpath: //a[@class='site-nav__link site-nav__link--main'][text()='Blog']
+2020-10-24 00:02:02.570 [main] INFO  MainPageTest - Main page load test
+2020-10-24 00:02:02.570 [main] INFO  pages.BasePage - Check element with xpath exists: //img[@itemprop='logo']
+2020-10-24 00:02:03.749 [main] DEBUG io.github.bonigarcia.wdm.Preferences - Preference chrome=86 (valid until 2020-10-24 15:02:34)
+2020-10-24 00:02:03.752 [main] DEBUG io.github.bonigarcia.wdm.Preferences - Preference chrome86=86.0.4240.22 (valid until 2020-10-24 15:02:34)
+2020-10-24 00:02:03.752 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 86.0.4240.22 (since Google Chrome 86 is installed in your machine)
+2020-10-24 00:02:03.755 [main] DEBUG io.github.bonigarcia.wdm.WebDriverManager - Driver chromedriver 86.0.4240.22 found in cache
+2020-10-24 00:02:03.756 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as /Users/lena/.m2/repository/webdriver/chromedriver/mac64/86.0.4240.22/chromedriver
+2020-10-24 00:02:07.503 [main] INFO  pages.UpperRightMenu - Login page is opened
+2020-10-24 00:02:07.503 [main] INFO  pages.BasePage - Clicking element with xpath: //a[@class='site-header__account']
+2020-10-24 00:02:09.859 [main] INFO  pages.UpperRightMenu - Cart icon is visible
+2020-10-24 00:02:09.859 [main] INFO  pages.BasePage - Check element with xpath exists: //a[@href='/cart']
+2020-10-24 00:02:10.929 [main] INFO  pages.UpperRightMenu - Login icon is visible
+2020-10-24 00:02:10.930 [main] INFO  pages.BasePage - Check element with xpath exists: //a[@class='site-header__account']

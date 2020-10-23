@@ -24,6 +24,7 @@ public class LoginPage extends BasePage {
         sendTextToElementByXpath(EMAIL_FIELD, text);
         sendTextToElementByXpath(PASSWORD_FIELD, text);
         clickElementByXpath(CREATE_BUTTON);
+
     }
 
 
@@ -31,7 +32,10 @@ public class LoginPage extends BasePage {
         boolean errorMessage = errorDisplayed(path);
         return errorMessage;
 
+    }
 
+    public String getURLPage(){
+        return getCurrentPageURL();
 
     }
 }
