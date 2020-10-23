@@ -17,6 +17,12 @@ public class LoginPage extends BasePage {
         Boolean isVisible = elementExists(CREATE_ACCOUNT_LOGO_PAGE);
         return isVisible;
     }
+
+    public boolean openForgotPasswordPage(){
+        clickElementByXpath(FORGOT_PASSWORD_PATH);
+        boolean isVisible = elementExists(RESET_PASS_LOGO_PATH);
+        return isVisible;
+    }
     public void creativeAccountMailFieldNegative(String text) {
         clickElementByXpath(CREATE_ACCOUNT_PATH);
         sendTextToElementByXpath(FIRST_MAME_FIELD, text);

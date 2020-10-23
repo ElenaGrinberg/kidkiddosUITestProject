@@ -77,6 +77,9 @@ public class Consts {
     public static final String PASSWORD_FIELD ="//input[@id='CreatePassword']";
     public static final String CREATE_BUTTON ="//input[@type='submit']";
     public static final String TEXT_ERROR_EMAIL = "//*[contains(text(), 'include')]";
+    public static final String FORGOT_PASSWORD_PATH = "//a[@id='RecoverPassword']";
+    public static final String RESET_PASS_LOGO_PATH = "//h2[text()='Reset your password']";
+    public static final String RESET_PASS_URL = "https://kidkiddos.com/account/login";
 
 
 

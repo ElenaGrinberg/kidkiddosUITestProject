@@ -51,5 +51,17 @@ public class LoginPageTest extends UseCaseBase {
 
     }
 
+    @Test
+    public void resetPasswordPageTest(){
+        logger.info("Reset password page test");
+        boolean isOpened = loginPage.openForgotPasswordPage();
+        String expectedUrl = RESET_PASS_URL;
+        String actualURL = loginPage.getURLPage();
+        assertTrue(isOpened);
+        assertEquals(expectedUrl, actualURL);
+
+
+    }
+
 
 }
