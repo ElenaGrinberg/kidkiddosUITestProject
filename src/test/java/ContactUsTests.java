@@ -1,5 +1,5 @@
 import pages.ContactUsPage;
-import Utils.UseCaseBase;
+import utils.UseCaseBase;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.junit.jupiter.api.*;
