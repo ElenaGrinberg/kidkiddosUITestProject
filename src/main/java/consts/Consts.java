@@ -20,7 +20,7 @@ public class Consts {
     public static final String EBOOKS_ADD_URL = "/ebooks";
     public static final String EMPTY_STRING = "";
     public static final String DANISH_LANGUAGE = "Danish";
-    public static final String DANISH_HEAD_PATH = "//div[@class='section-header text-center']//h1[contains(text(),'Danish')]";;
+    public static final String DANISH_HEAD_PATH = "//div[@class='section-header text-center']//h1[contains(text(),'Danish')]";
 
     public static final String DANISH_BOOKS_URL ="https://kidkiddos.com/collections/danish";
     public static final String DANISH_EBOOK_HEAD ="//div[@class='section-header text-center']//h1[contains(text(),'eBooks in Danish')]";
@@ -76,10 +76,19 @@ public class Consts {
     public static final String EMAIL_FIELD ="//input[@id='Email']";
     public static final String PASSWORD_FIELD ="//input[@id='CreatePassword']";
     public static final String CREATE_BUTTON ="//input[@type='submit']";
-    public static final String TEXT_ERROR_EMAIL = "//*[contains(text(), 'include')]";
+//    public static final String TEXT_ERROR_EMAIL = "//*[contains(text(), 'include')]";
     public static final String FORGOT_PASSWORD_PATH = "//a[@id='RecoverPassword']";
     public static final String RESET_PASS_LOGO_PATH = "//h2[text()='Reset your password']";
     public static final String RESET_PASS_URL = "https://kidkiddos.com/account/login";
+
+    //Shopping
+    public static final String BOOK_FOR_BUY_URL = "https://kidkiddos.com/collections/ebooks/products/ebook-goodnight-my-love-english-spanish-bilingual-ebook";
+    public static final String BUTTON_ADD_PATH = "//*[@id='AddToCartText-product-template']";
+    public static final String CART_URL= "https://kidkiddos.com/cart";
+    public static final String QUANTITY_PATH = "input[@class = 'cart__qty-input']";
+    public static final String BUTTON_REMOVE_PATH = "//a[@class = 'btn btn--small btn--secondary cart__remove']";
+    public static final String CART_COUNT_PATH = "//div[@id = 'CartCount']/span";
+
 
 
 

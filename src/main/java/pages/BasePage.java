@@ -79,6 +79,11 @@ public class BasePage {
             builder.moveToElement(element).build().perform();
         }
 
+        public String getTextByPath(String path){
+            String valueCustom = webDriver.findElement(By.xpath(path)).getText();
+            return valueCustom;
+        }
+
 
     protected WebElement findElementByXpath(String xpath) {
         WebElement element;
