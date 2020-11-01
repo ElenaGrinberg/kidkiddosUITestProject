@@ -12,7 +12,7 @@ import static org.junit.jupiter.api.Assertions.*;
 public class LoginPageTest extends UseCaseBase {
     public static final Logger logger = LogManager.getLogger(LoginPageTest.class);
     private static LoginPage loginPage;
-    String errorMailFieldTextPath = "//*[contains(text(),'include')]";
+
 
 
     @BeforeAll

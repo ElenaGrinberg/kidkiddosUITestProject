@@ -1,40 +1,17 @@
-2020-11-01 03:54:08.242 [main] DEBUG io.github.bonigarcia.wdm.Preferences - Preference chrome=86 (valid until 2020-11-02 03:05:28)
-2020-11-01 03:54:08.246 [main] DEBUG io.github.bonigarcia.wdm.Preferences - Preference chrome86=86.0.4240.22 (valid until 2020-11-02 03:05:28)
-2020-11-01 03:54:08.247 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 86.0.4240.22 (since Google Chrome 86 is installed in your machine)
-2020-11-01 03:54:08.259 [main] DEBUG io.github.bonigarcia.wdm.WebDriverManager - Driver chromedriver 86.0.4240.22 found in cache
-2020-11-01 03:54:08.263 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as /Users/lena/.m2/repository/webdriver/chromedriver/mac64/86.0.4240.22/chromedriver
-2020-11-01 03:54:12.371 [main] INFO  pages.ContactUsPage - Contact US Page load test
-2020-11-01 03:54:12.371 [main] INFO  pages.BasePage - Clicking element with xpath: //a[@class='site-nav__link site-nav__link--main'][text()='Contact us']
-2020-11-01 03:54:13.211 [main] INFO  pages.BasePage - Check element with xpath exists: //h1[text()='Contact us']
-2020-11-01 03:54:14.394 [main] INFO  pages.ContactUsPage - Negative test of form Contact Us
-2020-11-01 03:54:14.394 [main] INFO  pages.BasePage - Clicking element with xpath: //a[@class='site-nav__link site-nav__link--main'][text()='Contact us']
-2020-11-01 03:54:15.360 [main] INFO  pages.BasePage - Clicking element with xpath: //button[@id='_form_44_submit']
-2020-11-01 03:54:15.434 [main] INFO  pages.BasePage - Check element with xpath exists: //div[@class='_error-inner']
-2020-11-01 03:54:16.624 [main] INFO  pages.ContactUsPage - Negative test of form Contact Us
-2020-11-01 03:54:16.624 [main] INFO  pages.BasePage - Clicking element with xpath: //a[@class='site-nav__link site-nav__link--main'][text()='Contact us']
-2020-11-01 03:54:17.509 [main] INFO  pages.BasePage - Clicking element with xpath: //button[@id='_form_44_submit']
-2020-11-01 03:54:17.571 [main] INFO  pages.BasePage - Check element with xpath exists: //div[@class='_error-inner']
-2020-11-01 03:54:18.767 [main] INFO  pages.ContactUsPage - Negative test of form Contact Us
-2020-11-01 03:54:18.768 [main] INFO  pages.BasePage - Clicking element with xpath: //a[@class='site-nav__link site-nav__link--main'][text()='Contact us']
-2020-11-01 03:54:19.673 [main] INFO  pages.BasePage - Clicking element with xpath: //button[@id='_form_44_submit']
-2020-11-01 03:54:19.753 [main] INFO  pages.BasePage - Check element with xpath exists: //div[@class='_error-inner']
-2020-11-01 03:54:20.946 [main] INFO  pages.ContactUsPage - Negative test of form Contact Us
-2020-11-01 03:54:20.946 [main] INFO  pages.BasePage - Clicking element with xpath: //a[@class='site-nav__link site-nav__link--main'][text()='Contact us']
-2020-11-01 03:54:21.855 [main] INFO  pages.BasePage - Clicking element with xpath: //button[@id='_form_44_submit']
-2020-11-01 03:54:21.923 [main] INFO  pages.BasePage - Check element with xpath exists: //div[@class='_error-inner']
-2020-11-01 03:54:23.098 [main] INFO  pages.ContactUsPage - Negative test of form Contact Us
-2020-11-01 03:54:23.098 [main] INFO  pages.BasePage - Clicking element with xpath: //a[@class='site-nav__link site-nav__link--main'][text()='Contact us']
-2020-11-01 03:54:24.014 [main] INFO  pages.BasePage - Clicking element with xpath: //button[@id='_form_44_submit']
-2020-11-01 03:54:24.081 [main] INFO  pages.BasePage - Check element with xpath exists: //div[@class='_error-inner']
-2020-11-01 03:54:25.371 [main] INFO  pages.ContactUsPage - Error mail field test
-2020-11-01 03:54:25.372 [main] INFO  pages.BasePage - Clicking element with xpath: //a[@class='site-nav__link site-nav__link--main'][text()='Contact us']
-2020-11-01 03:54:26.938 [main] INFO  pages.BasePage - Clicking element with xpath: //button[@id='_form_44_submit']
-2020-11-01 03:54:27.031 [main] INFO  pages.BasePage - Check element with xpath exists: //div[@class='_error-inner'][contains(text(), 'valid email')]
-2020-11-01 03:54:28.217 [main] INFO  pages.ContactUsPage - Error mail field test
-2020-11-01 03:54:28.218 [main] INFO  pages.BasePage - Clicking element with xpath: //a[@class='site-nav__link site-nav__link--main'][text()='Contact us']
-2020-11-01 03:54:29.679 [main] INFO  pages.BasePage - Clicking element with xpath: //button[@id='_form_44_submit']
-2020-11-01 03:54:29.754 [main] INFO  pages.BasePage - Check element with xpath exists: //div[@class='_error-inner'][contains(text(), 'valid email')]
-2020-11-01 03:54:30.970 [main] INFO  pages.ContactUsPage - Error mail field test
-2020-11-01 03:54:30.970 [main] INFO  pages.BasePage - Clicking element with xpath: //a[@class='site-nav__link site-nav__link--main'][text()='Contact us']
-2020-11-01 03:54:32.515 [main] INFO  pages.BasePage - Clicking element with xpath: //button[@id='_form_44_submit']
-2020-11-01 03:54:32.587 [main] INFO  pages.BasePage - Check element with xpath exists: //div[@class='_error-inner'][contains(text(), 'valid email')]
+2020-11-01 04:02:08.410 [main] DEBUG io.github.bonigarcia.wdm.Preferences - Preference chrome=86 (valid until 2020-11-02 03:05:28)
+2020-11-01 04:02:08.414 [main] DEBUG io.github.bonigarcia.wdm.Preferences - Preference chrome86=86.0.4240.22 (valid until 2020-11-02 03:05:28)
+2020-11-01 04:02:08.415 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 86.0.4240.22 (since Google Chrome 86 is installed in your machine)
+2020-11-01 04:02:08.430 [main] DEBUG io.github.bonigarcia.wdm.WebDriverManager - Driver chromedriver 86.0.4240.22 found in cache
+2020-11-01 04:02:08.432 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as /Users/lena/.m2/repository/webdriver/chromedriver/mac64/86.0.4240.22/chromedriver
+2020-11-01 04:02:13.497 [main] INFO  LoginPageTest - Reset password page test
+2020-11-01 04:02:13.497 [main] INFO  pages.BasePage - Clicking element with xpath: //a[@id='RecoverPassword']
+2020-11-01 04:02:13.555 [main] INFO  pages.BasePage - Check element with xpath exists: //h2[text()='Reset your password']
+2020-11-01 04:02:14.834 [main] INFO  LoginPageTest - Login page is loaded
+2020-11-01 04:02:14.834 [main] INFO  pages.BasePage - Clicking element with xpath: //a[@class='site-header__account']
+2020-11-01 04:02:16.037 [main] INFO  pages.BasePage - Check element with xpath exists: //h1[text()='Login']
+2020-11-01 04:02:17.873 [main] INFO  LoginPageTest - Creative account fills
+2020-11-01 04:02:17.873 [main] INFO  pages.BasePage - Clicking element with xpath: //a[@id='customer_register_link']
+2020-11-01 04:02:19.042 [main] INFO  pages.BasePage - Clicking element with xpath: //input[@type='submit']
+2020-11-01 04:02:20.244 [main] INFO  LoginPageTest - Creative account page is opened and loaded
+2020-11-01 04:02:20.244 [main] INFO  pages.BasePage - Clicking element with xpath: //a[@id='customer_register_link']
+2020-11-01 04:02:21.046 [main] INFO  pages.BasePage - Check element with xpath exists: //h1[text()='Create Account']
