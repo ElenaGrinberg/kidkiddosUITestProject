@@ -5,8 +5,6 @@ import org.apache.logging.log4j.Logger;
 import org.junit.jupiter.api.*;
 import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.ValueSource;
-
-import static org.junit.jupiter.api.Assertions.assertNotNull;
 import static org.junit.jupiter.api.Assertions.assertTrue;
 
 public class ContactUsTests extends UseCaseBase {
@@ -33,8 +31,8 @@ public class ContactUsTests extends UseCaseBase {
     }
 
     @ParameterizedTest
-    @ValueSource(strings = {" ",  ",,,,,,,,,", "][{|*dsdnGG", "&&&&&&&&&", "xncbs2"})
-    public void NegativeTestOfForm(String text){
+    @ValueSource(strings = {" ", ",,,,,,,,,", "][{|*dsdnGG", "&&&&&&&&&", "xncbs2"})
+    public void NegativeTestOfForm(String text) {
         logger.info("Negative test of form Contact Us");
         boolean error = contactUsPage.formContactUsVerify(text);
         contactUsPage.takeScreenshot("NegativeTestOfForm");
@@ -42,8 +40,8 @@ public class ContactUsTests extends UseCaseBase {
     }
 
     @ParameterizedTest
-    @ValueSource(strings ={"@yandex.ru", "ASASASAAAaa///////////2222xxxzss,,,,,,@d.ru","c@c.@ru"})
-    public void NegativeTestOfEmailField(String text){
+    @ValueSource(strings = {"@yandex.ru", "ASASASAAAaa///////////2222xxxzss,,,,,,@d.ru", "c@c.@ru"})
+    public void NegativeTestOfEmailField(String text) {
         logger.info("Error mail field test");
         boolean error = contactUsPage.MailFormVerify(text);
         contactUsPage.takeScreenshot("NegativeTestOfEmailField");
@@ -61,14 +59,7 @@ public class ContactUsTests extends UseCaseBase {
 //    }
 
 
-
-
-
-
-
-
-
-    }
+}
 
 
 
