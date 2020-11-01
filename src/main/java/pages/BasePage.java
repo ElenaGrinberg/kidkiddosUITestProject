@@ -4,7 +4,6 @@ import org.apache.commons.io.FileUtils;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.openqa.selenium.*;
-import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import utils.UseCaseBase;
@@ -19,7 +18,7 @@ public class BasePage extends UseCaseBase {
     protected static WebDriverWait wait;
 
     public void setWebDriver(WebDriver webDriver) {
-//        this.webDriver = webDriver;
+        this.webDriver = webDriver;
         wait = new WebDriverWait(webDriver, 5);
     }
     public static void explicitWaitPresenceOfElement(String xpath) {
@@ -44,10 +43,10 @@ public class BasePage extends UseCaseBase {
         }
     }
 
-    public static String getTextFromMessageError() {
-        return  webDriver.switchTo().alert().getText();
-
-    }
+//    public static String getTextFromMessageError() {
+//        return  webDriver.switchTo().alert().getText();
+//
+//    }
 
 
 
@@ -73,11 +72,11 @@ public class BasePage extends UseCaseBase {
         }
     }
 
-        public static void moveCursorToElement(String xpath) {
-            WebElement element=webDriver.findElement(By.xpath(xpath));
-            Actions builder = new Actions(webDriver);
-            builder.moveToElement(element).build().perform();
-        }
+//        public static void moveCursorToElement(String xpath) {
+//            WebElement element=webDriver.findElement(By.xpath(xpath));
+//            Actions builder = new Actions(webDriver);
+//            builder.moveToElement(element).build().perform();
+//        }
 
         public String getTextByPath(String path){
                        return webDriver.findElement(By.xpath(path)).getText();

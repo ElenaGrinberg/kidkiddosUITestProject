@@ -10,19 +10,18 @@ public class UpperRightMenu extends BasePage {
     }
 
     public boolean loginIconIsVisible() {
-        Boolean isVisible = elementExists(LOGIN_ICON);
-        return isVisible;
+
+        return elementExists(LOGIN_ICON);
     }
 
     public boolean CartIsVisible() {
-        Boolean isVisible = elementExists(CART_PATH);
-        return isVisible;
+        return elementExists(CART_PATH);
     }
 
     public String openLoginPage() {
         clickElementByXpath(LOGIN_ICON);
-        String pageURL = getCurrentPageURL();
-        return pageURL;
+
+        return getCurrentPageURL();
     }
 
     public String getCurrentURL() {
@@ -39,7 +38,7 @@ public class UpperRightMenu extends BasePage {
 
     }
 
-    public boolean counterExist(){
+    public boolean counterExist() {
         return elementExists(CART_COUNT_PATH);
     }
 
