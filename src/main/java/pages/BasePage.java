@@ -7,18 +7,19 @@ import org.openqa.selenium.*;
 import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
+import utils.UseCaseBase;
 
 import java.io.File;
 import java.io.IOException;
 
-public class BasePage {
+public class BasePage extends UseCaseBase {
     private static final Logger logger = LogManager.getLogger(BasePage.class);
 
     protected static WebDriver webDriver;
     protected static WebDriverWait wait;
 
     public void setWebDriver(WebDriver webDriver) {
-        this.webDriver = webDriver;
+//        this.webDriver = webDriver;
         wait = new WebDriverWait(webDriver, 5);
     }
     public static void explicitWaitPresenceOfElement(String xpath) {
@@ -44,8 +45,7 @@ public class BasePage {
     }
 
     public static String getTextFromMessageError() {
-        String textError = webDriver.switchTo().alert().getText();
-        return textError;
+        return  webDriver.switchTo().alert().getText();
 
     }
 
@@ -80,8 +80,7 @@ public class BasePage {
         }
 
         public String getTextByPath(String path){
-            String valueCustom = webDriver.findElement(By.xpath(path)).getText();
-            return valueCustom;
+                       return webDriver.findElement(By.xpath(path)).getText();
         }
 
 
