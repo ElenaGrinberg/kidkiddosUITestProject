@@ -89,6 +89,14 @@ public class Consts {
     public static final String BUTTON_REMOVE_PATH = "//a[@class = 'btn btn--small btn--secondary cart__remove']";
     public static final String CART_COUNT_PATH = "//div[@id = 'CartCount']/span";
 
+    //addEnglishBooks
+    public static final String ENGLISH_BOOKS_URL = "https://kidkiddos.com/collections/english-only";
+    public static final String FIRST_BOOK = "//div[@class = 'h4 grid-view-item__title'][contains(text(), 'Boxer and Brandon')]";
+    public static final String SECOND_BOOK = "//div[@class = 'h4 grid-view-item__title'][contains(text(), 'I Love My Dad')]";
+
+
+
+
 
 
 

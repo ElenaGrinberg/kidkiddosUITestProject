@@ -1,17 +1,13 @@
-2020-11-01 04:02:08.410 [main] DEBUG io.github.bonigarcia.wdm.Preferences - Preference chrome=86 (valid until 2020-11-02 03:05:28)
-2020-11-01 04:02:08.414 [main] DEBUG io.github.bonigarcia.wdm.Preferences - Preference chrome86=86.0.4240.22 (valid until 2020-11-02 03:05:28)
-2020-11-01 04:02:08.415 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 86.0.4240.22 (since Google Chrome 86 is installed in your machine)
-2020-11-01 04:02:08.430 [main] DEBUG io.github.bonigarcia.wdm.WebDriverManager - Driver chromedriver 86.0.4240.22 found in cache
-2020-11-01 04:02:08.432 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as /Users/lena/.m2/repository/webdriver/chromedriver/mac64/86.0.4240.22/chromedriver
-2020-11-01 04:02:13.497 [main] INFO  LoginPageTest - Reset password page test
-2020-11-01 04:02:13.497 [main] INFO  pages.BasePage - Clicking element with xpath: //a[@id='RecoverPassword']
-2020-11-01 04:02:13.555 [main] INFO  pages.BasePage - Check element with xpath exists: //h2[text()='Reset your password']
-2020-11-01 04:02:14.834 [main] INFO  LoginPageTest - Login page is loaded
-2020-11-01 04:02:14.834 [main] INFO  pages.BasePage - Clicking element with xpath: //a[@class='site-header__account']
-2020-11-01 04:02:16.037 [main] INFO  pages.BasePage - Check element with xpath exists: //h1[text()='Login']
-2020-11-01 04:02:17.873 [main] INFO  LoginPageTest - Creative account fills
-2020-11-01 04:02:17.873 [main] INFO  pages.BasePage - Clicking element with xpath: //a[@id='customer_register_link']
-2020-11-01 04:02:19.042 [main] INFO  pages.BasePage - Clicking element with xpath: //input[@type='submit']
-2020-11-01 04:02:20.244 [main] INFO  LoginPageTest - Creative account page is opened and loaded
-2020-11-01 04:02:20.244 [main] INFO  pages.BasePage - Clicking element with xpath: //a[@id='customer_register_link']
-2020-11-01 04:02:21.046 [main] INFO  pages.BasePage - Check element with xpath exists: //h1[text()='Create Account']
+2020-11-04 16:34:43.026 [main] DEBUG io.github.bonigarcia.wdm.Preferences - Preference chrome=86 (valid until 2020-11-05 14:34:50)
+2020-11-04 16:34:43.032 [main] DEBUG io.github.bonigarcia.wdm.Preferences - Preference chrome86=86.0.4240.22 (valid until 2020-11-05 14:34:50)
+2020-11-04 16:34:43.033 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 86.0.4240.22 (since Google Chrome 86 is installed in your machine)
+2020-11-04 16:34:43.055 [main] DEBUG io.github.bonigarcia.wdm.WebDriverManager - Driver chromedriver 86.0.4240.22 found in cache
+2020-11-04 16:34:43.056 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as /Users/lena/.m2/repository/webdriver/chromedriver/mac64/86.0.4240.22/chromedriver
+2020-11-04 16:34:48.208 [main] INFO  pages.BasePage - Clicking element with xpath: //div[@class = 'h4 grid-view-item__title'][contains(text(), 'Coloring Book')]
+2020-11-04 16:34:48.641 [main] INFO  pages.BasePage - Clicking element with xpath: //*[@id='AddToCartText-product-template']
+2020-11-04 16:34:50.504 [main] INFO  pages.BasePage - Clicking element with xpath: //div[@class = 'h4 grid-view-item__title'][contains(text(), 'I Love Autumn')]
+2020-11-04 16:34:50.871 [main] INFO  pages.BasePage - Clicking element with xpath: //*[@id='AddToCartText-product-template']
+2020-11-04 16:34:53.054 [main] INFO  pages.BasePage - Clicking element with xpath: //div[@class = 'h4 grid-view-item__title'][contains(text(), 'I Love My Dad')]
+2020-11-04 16:34:53.881 [main] INFO  pages.BasePage - Clicking element with xpath: //*[@id='AddToCartText-product-template']
+2020-11-04 16:34:55.973 [main] INFO  pages.BasePage - Clicking element with xpath: //div[@class = 'h4 grid-view-item__title'][contains(text(), 'I Love to Sleep in My Own Bed')]
+2020-11-04 16:34:57.217 [main] INFO  pages.BasePage - Clicking element with xpath: //*[@id='AddToCartText-product-template']

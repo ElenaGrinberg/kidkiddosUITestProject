@@ -14,24 +14,26 @@ public class LoginPageTest extends UseCaseBase {
     private static LoginPage loginPage;
 
 
-
     @BeforeAll
     public static void classSetup() {
         loginPage = new LoginPage();
     }
+
     @BeforeEach
     public void beforeTest() {
         loginPage.goToLoginPage();
     }
+
     @Test
-    public void LoginPageLoadingTest(){
+    public void LoginPageLoadingTest() {
         logger.info("Login page is loaded");
         boolean isVisible = loginPage.logoLoginPageIsVisible();
         loginPage.takeScreenshot("LoginPageIsLoaded");
         assertTrue(isVisible);
     }
+
     @Test
-    public void createAccountLinkTest(){
+    public void createAccountLinkTest() {
         logger.info("Creative account page is opened and loaded");
         boolean isVisible = loginPage.createAccountLink();
         loginPage.takeScreenshot("CreativeAccountPageOpened");
@@ -39,20 +41,19 @@ public class LoginPageTest extends UseCaseBase {
     }
 
     @Test
-        public void createAccountMailNegativeTest(){
+    public void createAccountMailNegativeTest() {
         String text = "#$%^&#W";
         logger.info("Creative account fills");
         loginPage.creativeAccountMailFieldNegative(text);
 //        boolean errorText = loginPage.isErrorMessage(TEXT_ERROR_EMAIL);
         String expectedUrl = CREATE_ACCOUNT_PAGE_URL;
         String actualURL = loginPage.getURLPage();
-//        assertTrue(errorText);
         assertEquals(expectedUrl, actualURL);
 
     }
 
     @Test
-    public void resetPasswordPageTest(){
+    public void resetPasswordPageTest() {
         logger.info("Reset password page test");
         boolean isOpened = loginPage.openForgotPasswordPage();
         String expectedUrl = RESET_PASS_URL;

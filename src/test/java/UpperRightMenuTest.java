@@ -44,10 +44,9 @@ public class UpperRightMenuTest extends UseCaseBase {
     @Test
     public void LoginPageIsOpened() {
         logger.info("Login page is opened");
-        String expectedURL = LOGIN_PAGE_URL;
         String actualURL = upperRightMenu.openLoginPage();
         upperRightMenu.takeScreenshot("OpenLoginPage");
-        assertEquals(expectedURL, actualURL);
+        assertEquals(LOGIN_PAGE_URL, actualURL);
 
     }
 
@@ -58,6 +57,7 @@ public class UpperRightMenuTest extends UseCaseBase {
         assertEquals(Consts.CART_URL, currentURL);
         assertNotNull(cartCounter);
         assertEquals("1", cartCounter);
+
     }
 
     @Test
